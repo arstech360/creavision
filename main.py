@@ -3,12 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 
-# Opening JSON file
-f = open('creavision.json')
 
-# returns JSON object as
-# a dictionary
-data = json.load(f)
 st.sidebar.selectbox(
     "Age"
     "?",
